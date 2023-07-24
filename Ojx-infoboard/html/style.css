@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+:root {
+  --mainsupercoolcolor: #e66022;
+}
+
+.container {
+  height: 100vh;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.infoboard-main {
+  display: none;
+  position: absolute;
+  height: fit-content;
+  width: 25vh;
+  background-color: #0a0a0a;
+  left: 3vh;
+  top: 30vh;
+  margin: 1vh;
+  border: var(--mainsupercoolcolor) 2px solid;
+  border-radius: 0.8vh;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.459);
+  padding-bottom: 0px;
+  animation: Jojo 1.1s;
+}
+
+.scoreboard-header {
+  border-radius: 0 5vh 5vh 0;
+  position: relative;
+  width: 37%;
+  height: 2vh;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  background: var(--mainsupercoolcolor);
+}
+
+.scoreboard-header > p {
+  text-align: center;
+  font-weight: bolder;
+  color: #0a0a0a;
+  padding: 0.5vh;
+  font-family: sans-serif;
+  font-size: 1.1vh;
+  font-style: italic;
+}
+#status-tab-label {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  right: 3vh;
+}
+
+.info-beam-title {
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 1.1vh;
+  letter-spacing: 0vh;
+  left: 0.7vh;
+  line-height: 2.5vh;
+  color: #ededed;
+}
+
+.info-beam-title-players {
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 1.1vh;
+  letter-spacing: 0vh;
+  left: 0.4vh;
+  line-height: 2.5vh;
+  color: #ededed;
+}
+
+.info-beam-status {
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 1.1vh;
+  right:1vh;
+  float: left;
+  text-align: left;
+  line-height: 2.5vh;
+}
+
+.scoreboard-info-beam {
+  margin-top: .1vh;
+  position: relative;
+  height: 2.35vh;
+  width: 100%;
+  background: #121212;
+  /* box-shadow: 0 0 6px black; Fuck this dont make it true */ 
+}
+
+.fa-clock,
+.fa-check,
+.fa-times {
+  color: var(--mainsupercoolcolor);
+}
+
+.ojxmini-header {
+  position: relative;
+  width: 100%;
+  height: 1.6vh;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  background: var(--mainsupercoolcolor);
+}
+
+.ojxmini-header > p {
+  text-align: center;
+  font-weight: bolder;
+  color: #0a0a0a;
+  padding: 0.4vh;
+  font-family: sans-serif;
+  font-size: 1.1vh;
+  font-style: italic;
+}
+
+.moneyicon-ojxiscool-nicely  {
+  position: absolute;
+  background: #0a0a0a;
+  border: 2px var(--mainsupercoolcolor) solid;
+  padding: 0.5vh;
+  right: 3%;
+  top:7.5%;
+  border-radius: 4px;
+  
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.moneyicon-ojxiscool-nicely > p {
+  color: var(--mainsupercoolcolor);
+  font-size: 1vh;
+}
+
+
+.money-ojxiscool-nicely  {
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 1vh;
+  font-weight: 780;
+  font-style: italic;
+  right: 16.6%;
+  top: 7%;
+  border-radius: 5px;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes Jojo {
+  from {
+      left:-10vh;
+  }
+  to {
+      left:3vh;
+  }
+}
+
+.somthingrandom {
+  background: var(--mainsupercoolcolor);
+}
